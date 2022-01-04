@@ -1,0 +1,17 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="basic.models.django" />
+          <option value="basic.admin.django" />
+          <option value="basic.admin.*" />
+          <option value="manage.exc" />
+          <option value="basic.views.django" />
+          <option value="basic.views.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

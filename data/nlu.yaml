@@ -1,0 +1,422 @@
+version: '2.0'
+nlu:
+
+- intent: hair_treatment
+  examples: |
+    - hair treatment
+    - can I have hair treatment
+    - i think i will go for hair
+
+- intent: facial
+  examples: |
+    - facial
+    - can I have facial treatment
+    - i think i will go for facial
+- intent: slimming
+  examples: |
+    - slimming
+    - can I have slimming treatment
+    - i think i will go for slimming
+    - slimming because I've given birth recently
+- intent: weekday
+  examples: |
+    - weekday
+    - monday
+    - tuesday
+    - wednesday
+    - thursday
+    - friday
+    - are you free on monday
+    - can I come on monday
+    - next monday do you have slots available
+    - are you free on Tuesday
+    - can I come on Tuesday
+    - next Tuesday do you have slots available
+    - are you free on Tuesday
+    - can I come on Wednesday
+    - next Wednesday do you have slots available
+    - are you free on Wednesday
+    - can I come on Thursday
+    - next Thursday do you have slots available
+    - are you free on Friday
+    - can I come on Friday
+    - next Friday do you have slots available
+- intent: weekend
+  examples: |
+    - weekend
+    - do you have slots on saturday
+    - are you free on saturday
+    - saturday 
+    - do you have slots on Sunday
+    - are you free on Sunday
+    - sunday
+- intent: busy
+  examples: |
+    - I'm busy at the moment
+    - can you call me back in the evening
+    - I'm not available right now can you call me back
+    - I'm busy at the moment can you call tomorrow
+    - I'm busy can you can another time
+    - I'm busy can you call tomorrow
+    - can call another time
+    - can call tomorrow
+    - am busy now
+    - busy right now
+    - busy right now
+    - I have no time
+    - I'm busy
+    - I'm swamped
+    - I got things to do
+    - how busy I am
+    - I don't have time for this
+    - I'm working right now
+    - No I'm in the public transport
+    - Sorry, I'm still in the middle of something.
+    - I'm driving, call tomorrow.
+    - driving at this moment
+    - hello in the auto
+    - no its okay am not free
+    - no free
+    - sorry I cant talk
+    - I am busy
+    - I am busy leh
+    - I am busy with my baby right now what is it
+    - I am busy with my children now
+    - I am unavailable at the moment
+    - sorry ah not free right now ah
+    - busy with my children
+    - busy cooking
+    - busy doing housework
+    - not available to speak right now
+    - call me next week
+    - call me again
+    - call me other time
+    - call me in the afternoon
+    - call me tomorrow
+    - call me next time
+    - call me next week
+    - call me next month
+
+- intent: who_is
+  examples: |
+    - who am I speaking to?
+    - who are you?
+    - why are you calling me?
+    - where did you get my number?
+    - who is calling
+    - who is this?
+    - you are calling from prudential?
+    - from where are you calling?
+    - where are you calling from?
+    - I don't know you
+    - hello who are you
+
+
+- intent: reject
+  examples: |
+    - No
+    - I've already done the nomination
+    - i dont want anymore
+    - never mind
+    - no its okay
+    - no its fine
+    - don't want
+    - need not
+    - don't come
+    - never help
+    - no la no
+    - not needed
+    - of course not
+    - never
+    - not at this time
+    - not exactly
+    - absolutely no
+    - no forget
+    - do not
+    - dont think i need
+    - i will be fine without it
+    - no thanks
+    - no don't want
+    - sorry no
+    - don't want your help
+    - I don't you help
+    - I don't want your assistance
+    - get out goodbye
+    - i do not want your help
+    - i don't need your help
+    - i don't want your help
+    - i am not okay with your help
+    - don't want
+    - do not
+    - I don't need anything from you
+    - okay keep it in mind
+    - nope i dont need your help
+    - Don't show off
+    - sorry, no
+    - Yes, but I am not keen now
+    - not necessary
+    - no Thank you
+    - no need
+    - My husband is from AIA
+    - no so sorry
+    - not at the moment thanks
+    - No sorry not keen
+    - no sorry
+    - Zoom ah? No need thankyou
+    - i dont know this but i have one
+    - no actually i got my agent who contact me also
+    - no worry i see my agent contact me regarding this
+    - no already arranged for this
+    - sorry i am not really keen thanks
+    - its okay thank you
+    - don’t want
+    - no thank you
+    - oh no need
+    - ah i dont want
+    - i dont know lah
+    - not now
+    - sorry not now
+    - not yet done 
+    - don’t know
+    - huh cpf what 
+    - ah cpf nomination not really why 
+    - in meeting.
+    - sorry, am driving
+    - I don't have time for the call now
+    - i will contact you later
+    - sorry,this isn't a good/convienent time to talk.I am at work
+    - am not available now
+    - I have work
+    - I am in office
+    - I am at work
+    - not convient to talk
+    - don't have time
+    - sorry,not interested
+    - not interested
+    - I already have it
+    - I have an agent already
+    - someone is handling it for me
+    - i already have that plan
+    - my family is in AIA
+    - I have an agent from AIA
+    - my family is in prudential
+    - i am in prudential/AIA
+    - Not interested in anything
+    - This will surely lead into insurance. No thanks.
+    - We are not interested in any insurance
+    - Not interested at the moment thank you.
+    - Not, really.
+    - No, It's ok.
+    - Sorry not interested in all these kind of insurance thing.
+    - This will surely leading into insurance someway so don't disturb me
+    - don’t think I'll need it, thanks.
+    - Not interested, thank you
+    - Sorry not interested
+    - no not interested
+    - sorry i don't need
+    - not keen
+    - not intertested
+    - don't want don't want
+    - i don't need it
+    - i dont have time now
+    - not interested
+    - i don't have the time now
+    - i not free now
+    - no no no i don't need it
+    - i don't want
+    - i have my own agent
+    - my family from prudential
+    - i have enough coverage
+    - i don't have time for this
+    - i dont want a callback
+    - i am not interested for callback
+    - No, I don’t want to receive a callback
+    - Why would you need them to call me back?
+    - please dont call me again
+    - not need for callback
+    - dont disturb me
+    - no dont call me
+    - thank you bye bye
+    - okay thank you bye bye
+    - okay sorry bye bye
+
+
+- intent: confirm
+  examples: |
+    - yes
+    - what is this call about
+    - what is it about
+    - what is it regarding about
+    - what do you want
+    - ok thanks
+    - it's alright
+    - what is it about
+    - what is it regarding about
+    - thats right
+    - yes please.
+    - you can you call me I think
+    - you can you call me
+    - indeed
+    - of course
+    - um hmm
+    - uh huh
+    - that sounds good
+    - correct
+    - yeah
+    - go on
+    - continue
+    - yes tell me
+    - please carry on
+    - please continue
+    - yes,am interested
+    - yes,I heard about it
+    - yaa
+    - yes i have done
+    - done nomination
+    - ya ok
+    - yes I done
+    - okay
+    - yes done
+    - I have
+    - ah yes I guess so ya
+    - ya ya ya yes yes
+    - ok sure
+    - can speak now
+    - great
+    - cool
+    - ok
+    - interested
+    - yes,i may be interested.
+    - can
+    - sure
+    - carry on
+    - what is the next step
+    - yeah exactly
+    - okay that's fine
+    - I agree
+    - that is ok
+    - I guess
+    - okey
+    - ya
+    - errr.Sure.
+    - am keen about it
+    - ok yes
+    - yes it is
+    - yep
+    - yew
+    - yeah
+    - hey yes
+    - yeah fine
+    - yes what is it?
+    - yes continue
+    - am free
+    - yea fine
+    - yep okay
+    - fine okay
+    - yup
+    - YEAH
+    - okay buddy
+    - oh okay
+    - yeah sure
+    - okay cool
+    - coool
+    - okay
+    - can thank you
+    - ok sure
+    - ok can
+    - Okay can.
+    - absolutely
+    - okay schedule
+    - all right
+    - no problem
+    - welcome
+    - Erm.. I think it’s okay.
+    - erm okay
+    - sup
+    - yo
+    - erm yes
+    - erm..yeah
+    - i see
+    - uhh
+    - umm
+    - ahhaa
+    - uh huhh
+    - yes tell me
+    - yup
+    - erm yes
+    - of course
+    - oh humm huh
+    - okay buddy
+    - sup man
+    - that sound good
+    - uhh
+    - yes tell me
+    - yo
+    - is there anything i can help you
+    - go about it
+    - continue
+    - ah yes
+    - hmm yes
+    - there
+    - ah ha
+    - hm hum
+    - hey
+    - hello
+    - hi
+    - long time no see
+    - howdy
+    - hey there
+    - whatsup
+    - greetings
+    - I greet you
+    - hi there
+    - lovely day isn't it
+    - hello again
+    - just going to say hi
+    - hi there
+    - a good day
+    - hello hi
+    - heya
+    - hey
+    - hi
+    - hey yeah?
+    - hey buddy
+    - oka
+    - yo man
+    - hola
+    - hii what is it about?
+    - who's on line?
+    - hello who is that calling?
+    - heyy
+    - a good day
+    - hello hi what is it about
+    - hello there
+    - hello what is it about
+    - hello yeah
+    - Hey boo
+    - hey there
+    - hey ya
+    - hey yeah
+    - heya
+    - hola
+    - just going to say hi
+    - long time no see
+    - I greet you
+    - lovely day
+    - lovely day isn't it
+    - howdy
+    - wei
+    - wei ni hao
+    - Ar lo
+    - Assalamualaikum
+    - am aware of it
+    - am completely aware of it
+    - aware of it la
+    - maybe
+    - it may be 
+    - it may be ok
+    - maybe it is ok
+
+- intent: start_conversation
+  examples: |
+    - start conversation

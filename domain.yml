@@ -1,0 +1,138 @@
+version: '2.0'
+actions:
+  - action_hello_world
+  
+entities:
+  - number
+  
+intents:
+  - confirm:
+      use_entities: []
+  - age:
+      use_entities: []
+  - reject:
+      use_entities: []
+  - fallback:
+      use_entities: []
+  - who_is
+  - start_conversation
+  - speak_twice
+  - not_singaporean
+  - already_done
+  - busy
+  - hair_treatment
+  - facial
+  - slimming
+  - weekend
+  - weekday
+
+responses:
+
+  utter_convincing_kelly:
+    - text: Oh okay the treatment are only eligible for the 1st 30th customer who drop by & it worth $300 erm beside that our partner do have many positive review and have won multiple award can i slot you in for an appointment
+  
+  utter_greeting_kelly:
+    - text: Hello hi this is Kelly  i hope i get you at the right time erm can i have a quick one minute of your time 
+  
+  utter_types_of_solution:
+    - text: Er ya with regards to the survey that you have fill in a few days back to win a $300 gift voucher that comes with  a complimentary treatments erm may I ask you are looking for  hair treatment facial or slimming solution
+ 
+  utter_appointment_setting:
+    - text: Sure no problem may I check do you prefer to drop by on weekdays or weekend
+  utter_sms_details:
+    - text: Great I will take note I will arrange the specialist to drop you a message of the appointments details and the address
+  utter_goodbye_kelly:
+    - text: Okay thank you and have a pleasant week ahead goodbye
+
+  utter_greeting:
+    - text: hello hi, i am Joleen calling from prudential.
+
+  utter_more_info:
+    - text: okay so Just a little sharing if there's no nomination assigned. Your CPF shares will be distributed base on Singapore law.so the purpose of this call is to guide along on the nomination process.
+
+  utter_main_explanation:
+    - text: You can rest assure as there is no risk involvement,but more like a informative sharing on what's happening to your CPF distribution if there's no nomination made.Er... will it be okay for my manager to give you a call and arrange a meet up with you? On top of that you will also be entitled for a $10 ntuc voucher
+
+  utter_question_positive:
+    - text: can I discuss with you on the cpf nomination
+
+  utter_more_question:
+    - text: er so okay, i will get my manager to give you a call tmr afternoon.. oh ya btw, how old are you?
+
+  utter_guide_info:
+    - text: ok so.. will it be okay for my manager to give you a call and arrange a meet up with you and guide along with the nomination process.On top of that you will also be entitled for a $10 ntuc voucher
+
+  utter_ending:
+    - text: okay thank you have a nice day. Goodybye!
+
+  utter_appointment:
+    - text: ohokay. no problem I will take note. My manager will give you a call tmr.
+
+  utter_busy:
+    - text: sorry to disturb you at this time, i will call you tomorrow.goodbye.
+
+  utter_scam:
+    - text: Don't worry, this is definitely not a scam.  Many people like you and i probably not aware of CPF Nomination. So this more like a simple guide through to guide  you  along on the process. So will it be ok for my manager to give you a call and guide you along with the nomination process? On top of that you will also be entitled for a $10 ntuc voucher
+
+  utter_greeting_repeat:
+    - text: Hii,am so sorry am joleen, calling from prudential.
+
+  utter_question_repeat:
+    - text: ahh yeah...as i was mentioning have made cpf nomination..?
+
+  utter_more_info_repeat:
+    - text: umm okay ya .. as I was mentioning The contribution process will base on intestate law. But my manager will go through the process with you carefully.
+
+  utter_more_question_repeat:
+    - text: ahh ok sorry i was mentioning may i check with your age,how old are you?
+
+  utter_hello:
+    - text: hello
+
+  utter_call_back_time:
+    - text: ok okay sorry disturb, no problem will give you a call at your preferred availability that you mention
+
+  utter_call_back:
+    - text: ok okay sorry disturb, no problem will get my manager to give you a call tomorrow and do pass the contact details over to my manager. Alright?
+
+  utter_manager_info:
+    - text: my manager is from prudential with many years of experience in this industry.Would it be okay for my next manager in line to give you a call tomorrow & arrange a meet up with you to guide you along with the cpf nomination.the whole duration will take around 30 mins or more.on top of that you will also be entitled to a $10 ntuc voucher
+
+  utter_regarding_pass:
+    - text: don't worry you do not have to give me your confidential details, during the meet up with my manager she will assist you wth the cpf nomination processs
+
+  utter_cost_info:
+    - text: er yes dont worry, During the meet with my manager there will not be any cost involvement on the whole process of nomination.
+
+  utter_number_info:
+    - text: hi so sorry i got your number from a online marketing survey that  you fill in your particular some times back.i am doing a follow up service call to check with you if you have made your cpf nomination &  my manager from prudential can provide such value added service to assist you.
+
+  utter_distribution_info:
+    - text: yes the distribution will distributed base on the intestate law.however if you have do your nomination you have the flexibility to who you would like to nominate. Which many singaporean are not aware of it.So will it be ok for my manager to give you a call and guide you along with the nomination process? On top of that you will also be entitled for a $10 ntuc voucher.
+
+  utter_voucher_info:
+    - text: so sorry you will only be entitled $10 ntuc voucher this is to promote cpf nomination process to all household.so would it be okay for my manager to give you a call to guide you along with the nomination process,on top of that you will also be entitled to a $10 ntuc voucher.
+
+  utter_convince:
+    - text: okay I understand this may not be a top priority right now, or perhaps you don’t see the value in it.many people have said the same, but once my manager meet them up and guide along with the nomination they find it very useful to have this settle before hand.allow me to have  two minutes of your time and I promise you’ll be clear on whether or not this is a good use of your time.
+
+  utter_more_question_purpose:
+    - text: oh okay by knowing your age this allow my manager to do her preparation before meeting you. This is to allow us to save some time on the nomination process.
+
+  utter_cpf_info:
+    - text: A cpf nomination provide you with the option to specify who will receive your CPF saving.If there is no nomination assign, your cpf share will be distributed base on the intestate law,but if you have make your nomination, your love one or the person you have assigned will receive your distribution accordingly.so would it be okay for my manager to give you a call to guide you along with the nomination process.on top of that you will also be entitled to a $10 ntuc voucher
+
+  utter_nomination_info:
+    - text: you can indicate to any person this include a non cpf account holder as long as they are 16 years old and above. All you need to know is their name exactly as per NRIC.there is also no limit to the number of time you make the changes.But if you are doing it online you only can only maximum of 8 nominee.but if you wish to nominate more then 8 you have to drop by cpf servie center to make the nomination.so will it be okay for my manager to give you a call and guide you along with the nomination procress on top of that you will be entitled to a $10 ntuc voucher
+
+  utter_account_nomination_info:
+    - text: oh okay glad you ask because many people is not aware of the terms too,the nomination covers all the savings in all your account such as MediSave  Ordinary, Special and Retirement Accounts.
+
+  utter_disclosure_info:
+    - text: no cpf board will not disclose your CPF account information and nomination details while you are still alive.This information will only be disclosed upon your demise.
+
+  utter_witness_info:
+    - text: nope the witness do not have to come during the meet up, onec you assign them as witness using your singpass they will receive a authorization sms or email
+
+  utter_fallback:
+    - text: sorry,i didnt get you.

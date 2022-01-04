@@ -1,0 +1,27 @@
+version: '2.0'
+rules:
+  - rule: out-of-scope
+    steps:
+      - intent: nlu_fallback
+      - action: utter_fallback
+
+  - rule: greet
+    steps:
+    - intent: start_conversation
+    - action: utter_greeting_kelly
+
+  - rule: who
+    steps:
+    - intent: who_is
+    - action: utter_greeting_repeat
+
+  - rule: reject
+    steps:
+    - intent: reject
+    - action: action_hello_world
+
+  - rule: busy
+    steps:
+    - intent: busy
+    - action: utter_goodbye_kelly
+
